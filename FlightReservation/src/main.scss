@@ -48,11 +48,7 @@ li{
     font-size: 1.3rem;
     cursor: pointer;
 }
-.none{
-    display: grid;
-    align-items: center;
 
-}
 .flex{
 display: flex;
 align-items: center;
@@ -61,6 +57,11 @@ align-items: center;
 .grid{
     display: grid;
     align-items: center;
+}
+.none{
+    display: grid;
+    align-items: center;
+
 }
 
 .btn{
