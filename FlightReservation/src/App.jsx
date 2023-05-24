@@ -12,15 +12,18 @@ import Travelers from './Component/Travelers/Travelers'
 function App() {
   return (
     <div>
-    <Footer/>
+    {/* <Footer/> */}
     <Home/>
-    <Info/>
-    <Lounge/>
     <Navbar/>
     <Search/>
-    <Subscribe/>
     <Support/>
-    <Travelers/>
+    {/* <Info/>
+    <Lounge/>
+ 
+
+    <Subscribe/>
+   
+    <Travelers/> */}
 
 
     </div>
