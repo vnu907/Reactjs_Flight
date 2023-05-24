@@ -70,7 +70,7 @@ li {
 
 }
 
-.btn {
+.btn{
     padding: 0.7rem 1.5rem;
     background: var(--PrimaryColor);
     border: none;
@@ -80,9 +80,9 @@ li {
     color: var(--whiteColor);
 
 
-    a {
+       .a{
         color: var(--whiteColor);
-        font-weight: 500;
+        font-weight : 500;
     }
 
     &:hover {
@@ -129,8 +129,7 @@ h2 {
     width: 100%;
     z-index: 1000;
 
-    .navBarOne,
-    .navBarTwo {
+    .navBarOne, .navBarTwo {
         justify-content: space-between;
         padding: 1rem;
         width: 100%;
@@ -147,7 +146,7 @@ h2 {
         .atb {
             gap: 1rem;
 
-            span {
+           .span {
                 color: var(--blackColor);
                 font-size: 13px;
                 cursor: pointer;
@@ -174,23 +173,23 @@ h2 {
                  .logoDiv {
                          .logo {
                              width: 20%;
-                        }
-                 }
+                             }
+                          }
 
-        @media screen and (max-width:70px) {
-            .navBarMenu {
-                position: absolute;
-                background: var(--SecondaryColor);
-                padding: 1.5rem;
-                border-radius: 10px;
-                top: 5rem;
-                right: 50%;
-                width: 80%;
-                transform: translateX(50%);
-                z-index: 2000;
-                box-shadow: rgb(0, 0, 0) 0px 10px 15px -3px, rgb(0, 0, 0) 0px 4px 6px -2px;
-                border: 3px solid var(--whiteColor);
-                transition: 0.4s ease-in-out;
+              @media screen and (max-width:70px) {
+                  .navBarMenu {
+                     position: absolute;
+                     background: var(--SecondaryColor);
+                     padding: 1.5rem;
+                     border-radius: 10px;
+                    top: 5rem;
+                     right: 50%;
+                     width: 80%;
+                     transform: translateX(50%);
+                     z-index: 2000;
+                     box-shadow: rgb(0, 0, 0) 0px 10px 15px -3px, rgb(0, 0, 0) 0px 4px 6px -2px;
+                     border: 3px solid var(--whiteColor);
+                     transition: 0.4s ease-in-out;
 
                 .menu {
                     flex-direction: column;
@@ -369,10 +368,37 @@ h2 {
     .sectionContainer{
         .titlesDiv{
             text-align: center;
-            small{
+                .small{
                 letter-spacing: 0.8rem;
                 text-transform: uppercase;
+                color: var(--blackColor);
+                line-height: 1.5rem;
             }
         }
+
+        .infoDiv{
+            margin-top: 2rem;
+            gap: 1.5rem;
+            
+            .singleInfo{
+                .number{
+                    background: var(--PrimaryColor);
+                    padding: 5px 12px;
+                    width: 40px;
+                    border-radius: 3rem;
+                    text-align: center;
+                    font-size: 13px;
+                    font-weight: 700;
+                    color: var(--whiteColor);
+
+                }
+                .colorOn{
+                    background: var(--colorOne);
+                }
+            }
+            .colorTwo{
+                background: var(--colorTwo);
+            }
+        }
+        }
     }
-}

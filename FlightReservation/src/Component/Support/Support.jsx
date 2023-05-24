@@ -17,19 +17,19 @@ const Support =() =>{
         <div className="infoDiv grid">
           <div className="textDiv grid">
             <div className="singleInfo">
-              <span className="number">01</span>
+              <span className="number colorOne">01</span>
            <h4>Travel Requirements</h4>
             <p>Find help with booking and travel plans</p>
             </div>
 
             <div className="singleInfo">
-              <span className="number">02</span>
+              <span className="number colorTwo">02</span>
            <h4>Travel Requirements</h4>
             <p>Find help with booking and travel plans</p>
             </div>
 
             <div className="singleInfo">
-              <span className="number">03</span>
+              <span className="number colorOne">03</span>
            <h4>Travel Requirements</h4>
             <p>Find help with booking and travel plans</p>
             </div>
