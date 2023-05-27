@@ -1,30 +1,20 @@
-// import Destination from "../components/Destination";
-// import Footer from "../components/Footer";
-// import Hero from "../components/Hero";
 import React from 'react'
-import "../routes/Home.css";
-import Navbar from "../components/Navbar";
-import video from '../assets/sky.mp4'
-import aeroplane from '../assets/planetakeoff.png'
-// import Trip from "../components/Trip";
-
+import Plane from '../components/Plane'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import { Route, Routes } from 'react-router-dom'
 function Home() {
   return (
-    <div className="home flex container">
-        <div className="mainText">
-        <h1>Creating ever-lasting Memories With Us</h1>
-      </div>
+    <>
+    <Routes>
+    <Route path ='/' elements={<Home/>}/> 
+    <Route path ='/navbar' elements={<Navbar/>}/> 
     
-      <div className="homeImages flex">
-        
-        <div className="videoDiv">
-          <video src={video} autoPlay muted loop className='video'></video>
-          
-             </div>
-             <img src={aeroplane} className='plane' />
-      </div>
-    </div>
-  );
+    <Plane/>
+    <Footer/>
+    </Routes>
+          </>
+  )
 }
 
-export default Home;
+export default Home

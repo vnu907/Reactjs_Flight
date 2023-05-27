@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Wix+Madefor:wght@500;700&family=Spartan:wght300;400;500&display=swap");
 
-
+.mainText{
+    background-color: rgb(243, 243, 249);
+}
 .flex {
     display: grid;
     align-items: center;
@@ -21,9 +23,9 @@ video {
 
  img{
    
-   position: block;
+   position: absolute;
  padding-top: 50%;
- padding-left: 5%;
+ padding-left: 15%;
     height: auto;
 
   
@@ -32,6 +34,7 @@ video {
   
 .home{
   padding-top: 10rem;
+  background-color: rgb(241, 228, 237);
   text-align: center;
   gap: 2rem;
   flex-direction: block;
@@ -60,9 +63,9 @@ video {
       }
       .plane{
           position:absolute;
-     padding-top: 300px;
-     padding-left: 100px;         
-     width: 90%;
+     padding-top: 30%;
+     padding-left: 25%;         
+     width: 80%;
           top :-10%;
           
       }

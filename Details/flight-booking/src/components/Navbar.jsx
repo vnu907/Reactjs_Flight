@@ -16,7 +16,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">FeelFly</h1>
+        <h1 className="navbar-logo"><a href="/">FeelFly </a></h1>
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i

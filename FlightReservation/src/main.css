@@ -70,7 +70,7 @@ li {
 
 }
 
-.btn{
+.btns{
     padding: 0.7rem 1.5rem;
     background: var(--PrimaryColor);
     border: none;
@@ -176,7 +176,7 @@ h2 {
                              }
                           }
 
-              @media screen and (max-width:70px) {
+              @media screen and (max-width:700px) {
                   .navBarMenu {
                      position: absolute;
                      background: var(--SecondaryColor);

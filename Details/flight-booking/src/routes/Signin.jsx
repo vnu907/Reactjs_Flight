@@ -1,8 +1,10 @@
 import React from 'react'
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 function Signin() {
-  return (
+  return (<>
+  {/* <Navbar/> */}
     <div>Signin</div>
+    </>
   )
 }
 

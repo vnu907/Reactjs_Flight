@@ -57,7 +57,7 @@ const Footer = () => {
 </div>
  
 
-
+© Copyright: VAZ Team
     </div>
   );
 };
