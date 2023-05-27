@@ -1,0 +1,31 @@
+img,
+video {
+    width: 100%;
+    height: auto;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.homeImages{
+    width: 100%;
+    margin: 1rem auto 0;
+    justify-content: center;
+    position: relative;
+    border-radius: 5rem;
+
+    .videoDiv{
+        width: 100%;
+        .video{
+            border-radius: 10rem;
+        }
+    }
+    .plane{
+        position: absolute;
+        width: 100%;
+        top :-10%;
+        
+    }
+
+}

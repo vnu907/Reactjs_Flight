@@ -1,16 +1,30 @@
 import "./styles.css";
-import Navbar from "././components/Navbar";
-import {Routes } from "react-router-dom";
-// import Home from "./routes/Home";
+import { Routes,Route } from 'react-router-dom';
+
+
+import Navbar from "././components/Navbar.jsx";
+import Home from "./routes/Home.jsx";
 // import About from "./routes/About";
 // import Service from "./routes/Service";
 // import Contact from "./routes/Contact";
+// import Signin from "./routes/Signin";
+// import Signup from "./routes/Signup";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      {/* <Routes> </Routes> */}
       <Navbar/>
+      <Routes>
+      <Route path ='/' elements={<Home/>}/> 
+      <Route path ='/navbar' elements={<Navbar/>}/> 
+      {/* <Route path ='/about' elements={<About/>}/> 
+      <Route path ='/contact' elements={<Contact/>}/> 
+      <Route path ='/service' elements={<Service/>}/> 
+      <Route path ='/signin' elements={<Signin/>}/> 
+      <Route path ='/signup' elements={<Signup/>}/>  */}
+        </Routes> 
+     
     </div>
-  );
-}
+  )
+    };
+ export default  App;

@@ -34,15 +34,15 @@ export const MenuItems = [
 {
     title : "Sign Up",
     url : "/signup",
-    csName :"nav-links-mobile",
+    cName :"nav-links-mobile",
+    icon :'fa-solid fa-user'
  
-
-
 },
 {
     title : "Sign In",
     url : "/signin",
     cName :"nav-links-mobile",
+    icon :'fa-solid fa-user'
     
 
 
