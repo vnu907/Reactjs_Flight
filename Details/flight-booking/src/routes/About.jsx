@@ -1,4 +1,5 @@
 // import Hero from "../components/Hero";
+import React from 'react'
 import Navbar from "../components/Navbar";
 // import AboutImg from "../assets/night.jpg";
 // import Footer from "../components/Footer";
